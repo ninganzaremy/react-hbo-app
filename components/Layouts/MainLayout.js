@@ -1,4 +1,5 @@
-import Header from "../UI/Header";
+import Header from "../UI/Header/Header";
+import SideNav from "../UI/SidNav/SideNav";
 
 const MainLayout = (props) => {
 	return (
@@ -8,6 +9,8 @@ const MainLayout = (props) => {
 				minHeight: "100vh",
 			}}>
 			<Header />
+			<SideNav />
+
 			<section className="content-container">{props.children}</section>
 		</div>
 	);

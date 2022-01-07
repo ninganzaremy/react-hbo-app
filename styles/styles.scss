@@ -1,11 +1,9 @@
 @use "reset";
 @use "login";
 @use "create-user";
-@use "header";
+@use "../components/UI/Header/header";
+@use "../components/UI/SidNav/side-nav";
 
-//body {
-//	background: red;
-//}
 h1 {
 	font-size: 6rem;
 }
