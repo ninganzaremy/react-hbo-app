@@ -1,3 +1,4 @@
+import Account from "../Account/Account";
 const Header = (props) => {
 	return (
 		<header className="top-header">
@@ -14,6 +15,7 @@ const Header = (props) => {
 				<img src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" className="top-header__user-img" />
 				<div className="top-header__user-name">Bryant</div>
 			</div>
+			<Account />
 		</header>
 	);
 };
